@@ -5,6 +5,7 @@ pipeline {
             step {
 	    script {
                 sh 'ls'
+		sh 'all branch'    
             }
         } 
     }
