@@ -4,8 +4,7 @@ pipeline {
         stage ('test') {
             step {
 	    script {
-                sh 'ls'
-		sh 'all branch'    
+                sh 'ls'   
             }
         } 
     }
